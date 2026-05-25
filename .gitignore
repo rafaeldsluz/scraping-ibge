@@ -1,0 +1,31 @@
+# Outputs gerados (não versionar resultados grandes)
+output/
+downloads/
+logs/
+
+# Planilha original de dados brutos (grande demais para git)
+data/Setores_Censitarios_54municipios_SC.xlsx
+Setores_Censitarios_54municipios_SC.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Temporários
+*.tmp
+*.log
+run_output.txt
+download_log.txt
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Claude Code
+.claude/

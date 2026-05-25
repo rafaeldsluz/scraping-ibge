@@ -1,0 +1,19 @@
+# ── Core dependencies ──────────────────────────────────────────────
+pandas>=2.0.0
+openpyxl>=3.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+unidecode>=1.3.0
+tqdm>=4.65.0
+urllib3>=2.0.0
+
+# ── Future / optional integrations ─────────────────────────────────
+# geopandas>=0.14.0          # georreferenciamento e integração QGIS
+# pyproj>=3.6.0              # projeções cartográficas
+# sqlalchemy>=2.0.0          # banco de dados geográficos
+# psycopg2-binary>=2.9.0     # PostgreSQL / PostGIS
+# pypdf2>=3.0.0              # OCR e extração de texto PDF
+# pytesseract>=0.3.10        # OCR com Tesseract
+# celery>=5.3.0              # processamento paralelo / fila de tarefas
+# redis>=5.0.0               # broker para Celery
