@@ -45,7 +45,7 @@ DOWNLOADS_DIR = BASE_DIR / "downloads" / "mapas"
 LOGS_DIR      = BASE_DIR / "logs"
 OUTPUT_DIR    = BASE_DIR / "output"
 
-XLSX_FILENAME   = "Setores_Censitarios_54municipios_SC.xlsx"
+XLSX_FILENAME   = "setores_filtrados_20260524_215736.xlsx"
 REQUEST_DELAY   = 0.3   # pausa mínima entre requisições (segundos)
 REQUEST_TIMEOUT = 30    # timeout por requisição (segundos)
 MAX_RETRIES     = 3     # tentativas em falha HTTP 5xx
